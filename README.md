@@ -1,36 +1,68 @@
-Assignment
-Write a function named add_time that takes in two required parameters and one optional parameter:
+# freeCodeCamp: Scientific Computing with Python Certification Projects
 
-a start time in the 12-hour clock format (ending in AM or PM)
-a duration time that indicates the number of hours and minutes
-(optional) a starting day of the week, case insensitive
-The function should add the duration time to the start time and return the result.
+This repository contains completed projects submitted for the **Scientific Computing with Python v7** certification from [freeCodeCamp](https://www.freecodecamp.org/certification/hizkia/scientific-computing-with-python-v7).
 
-If the result will be the next day, it should show (next day) after the time. If the result will be more than one day later, it should show (n days later) after the time, where "n" is the number of days later.
+Each project demonstrates core Python programming concepts including arithmetic operations, time manipulation, object-oriented programming, simulation, and formatting.
 
-If the function is given the optional starting day of the week parameter, then the output should display the day of the week of the result. The day of the week in the output should appear after the time and before the number of days later.
+---
 
-Below are some examples of different cases the function should handle. Pay close attention to the spacing and punctuation of the results.
+## 📓 Project List
 
-add_time("3:00 PM", "3:10")
-# Returns: 6:10 PM
-add_time("11:30 AM", "2:32", "Monday")
-# Returns: 2:02 PM, Monday
-add_time("11:43 AM", "00:20")
-# Returns: 12:03 PM
-add_time("10:10 PM", "3:30")
-# Returns: 1:40 AM (next day)
-add_time("11:43 PM", "24:20", "tueSday")
-# Returns: 12:03 AM, Thursday (2 days later)
-add_time("6:30 PM", "205:12")
-# Returns: 7:42 AM (9 days later)
-Do not import any Python libraries. Assume that the start times are valid times. The minutes in the duration time will be a whole number less than 60, but the hour can be any whole number.
+### ✏️ Arithmetic Formatter
+- Format and arrange arithmetic problems in a columnar output.
+- Focuses on string manipulation and validation.
 
-Development
-Write your code in time_calculator.py. For development, you can use main.py to test your time_calculator() function. Click the "run" button and main.py will run.
+### ⏰ Time Calculator
+- Add time durations and return the resulting day and time.
+- Covers time logic and string formatting.
 
-Testing
-The unit tests for this project are in test_module.py. We imported the tests from test_module.py to main.py for your convenience. The tests will run automatically whenever you hit the "run" button.
+### 💳 Budget App
+- Simulate budgeting and spending tracking across categories.
+- Demonstrates OOP with classes and text-based chart generation.
 
-Submitting
-Copy your project's URL and submit it to freeCodeCamp.
+### 📘 Polygon Area Calculator
+- Create `Rectangle` and `Square` classes with area, perimeter, and ASCII drawing support.
+- Highlights class inheritance and geometric logic.
+
+### ⚖️ Probability Calculator
+- Use Monte Carlo simulation to estimate probabilities.
+- Teaches randomness, loops, and list manipulation.
+
+---
+
+## ⚙️ Installation
+```bash
+# Clone this repository
+$ git clone https://github.com/volthz001/Freecodecamp_project.git
+$ cd Freecodecamp_project
+
+# (Optional) Create virtual environment
+$ python -m venv venv
+$ source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Run notebooks or .py files as needed
+```
+
+---
+
+## 📐 Folder Structure
+```
+Freecodecamp_project/
+├── arithmetic-formatter-6/
+├── Time-calculator-2/
+├── budget-app/
+├── polygon-area-calculator/
+├── probability-calculator/
+├── README.md
+```
+
+---
+
+## 🚀 Author
+**Hizkia Siallagan**  
+[GitHub Profile](https://github.com/volthz001)
+
+---
+
+## ✅ License
+MIT License — see `LICENSE` file.
